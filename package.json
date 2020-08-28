@@ -1,0 +1,21 @@
+{
+  "name": "shopifyorderapi",
+  "version": "1.0.0",
+  "description": "simple shopify app to create and save orders",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Godwin Alexander",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
